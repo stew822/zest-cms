@@ -1,0 +1,25 @@
+{
+    "name": "stew822/zest-cms",
+    "type": "library",
+    "description": "Your package description goes here",
+    "keywords": ["relevant","tags","go","here"],
+    "homepage": "https://github.com/stew822/zest-cms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stewart Bisset",
+            "email": "stew822@gmail.com",
+            "homepage": "http://stew822.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stew822/zest-lib-php"
+        }
+    ],
+    "require": {
+        "stew822/zest-lib-php": "main"
+    }
+}
