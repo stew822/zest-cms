@@ -1,0 +1,42 @@
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+ a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#nav {
+    margin: 0.5em;
+}
+
+.collection {
+    margin: 4em;
+    border-collapse: collapse;
+    width: 100%;
+}
+.collection a {
+    padding: 1em 0.5em;
+    width: 100%;
+    display: block;
+}
+
+.collection td:hover {
+    background-color: #dbdbdb;
+}
+
+.collection tr {
+    border: solid;
+    border-width: 1px 0;
+    border-color: #bbb;
+}
+.collection tr:first-child {
+  border-top: none;
+}
+.collection tr:last-child {
+  border-bottom: none;
+}
+
+
